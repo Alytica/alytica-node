@@ -1,0 +1,40 @@
+{
+  "name": "alytica-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "prepare": "husky",
+    "lint-staged": "prettier --write --ignore-unknown"
+  },
+  "keywords": [
+    "analytics",
+    "event tracking",
+    "web analytics",
+    "product analytics"
+  ],
+  "author": "harism",
+  "license": "MIT",
+  "type": "commonjs",
+  "devDependencies": {
+    "@eslint/js": "^8.57.1",
+    "@types/node": "^22.13.10",
+    "eslint": "^8.57.1",
+    "globals": "^16.0.0",
+    "tsup": "^8.4.0",
+    "typescript": "^5.8.2",
+    "typescript-eslint": "^7.18.0"
+  },
+  "dependencies": {
+    "husky": "^9.1.7"
+  }
+}
