@@ -1,0 +1,13 @@
+|-- .gitignore
+|-- .husky
+    |-- pre-commit
+|-- .npmignore
+|-- eslint.config.mjs
+|-- package-lock.json
+|-- package.json
+|-- README.md
+|-- src
+    |-- api.ts
+    |-- index.ts
+|-- tsconfig.json
+|-- tsup.config.ts
