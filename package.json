@@ -1,7 +1,7 @@
 {
   "name": "alytica-node",
   "version": "0.0.1-beta",
-  "description": "A Library to use the Alytica Analytics API in Node.JS",
+  "description": "A Package to use the Alytica Analytics API in Node.JS",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
@@ -35,7 +35,6 @@
     "typescript-eslint": "^7.18.0"
   },
   "dependencies": {
-    "husky": "^9.1.7",
-    "prettier": "^3.5.3"
+    "husky": "^9.1.7"
   }
 }
