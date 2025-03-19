@@ -3,6 +3,7 @@
     |-- pre-commit
 |-- .npmignore
 |-- eslint.config.mjs
+|-- LICENSE.md
 |-- package-lock.json
 |-- package.json
 |-- README.md
