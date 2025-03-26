@@ -1,6 +1,6 @@
 # Alytica SDK
 
-The Alytica SDK is a JavaScript/TypeScript client library for integrating with the Alytica analytics platform. This SDK allows you to track user events, identify users, and manage user identity aliasing in your applications.
+The Alytica SDK is a JavaScript/TypeScript server library for integrating with the Alytica analytics platform. This SDK allows you to track user events, identify users, and manage user identity aliasing in your applications.
 
 ## Installation
 
