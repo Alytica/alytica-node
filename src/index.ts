@@ -90,6 +90,7 @@ export class Alytica {
         properties: {
           $distinctId: properties?.distinctId ?? this.distinctId,
           $processProfiles: this.options.processProfile,
+          $isIdentified: true,
           ...(this.global ?? {}),
           ...(properties ?? {}),
         },

@@ -1,6 +1,6 @@
 {
   "name": "alytica-node",
-  "version": "0.0.1-beta",
+  "version": "1.0.0",
   "description": "A Package to use the Alytica Analytics API in Node.JS",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
