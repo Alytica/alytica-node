@@ -51,7 +51,7 @@ export class Alytica {
       defaultHeaders["alytica-client-secret"] = options.clientSecret;
     }
     this.api = new Api({
-      baseUrl: options.apiUrl || "http://localhost:3002",
+      baseUrl: options.apiUrl || "https://api.alytica.tech",
       defaultHeaders,
     });
   }
@@ -72,7 +72,7 @@ export class Alytica {
     if (this.options.debug) {
       console.log(`Event sent to Alytica API: ${payload}`);
     }
-    return this.api.fetch("/track", payload);
+    return this.api.fetch("/api/track", payload);
   }
 
   setGlobalProperties(properties: Record<string, unknown>) {
